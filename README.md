@@ -4,3 +4,7 @@
 - bashrc contains lines which alter the bash environment
 - vimrc contains lines for a more normal use of vim
 - inputrc contains a line that inhibits case sensetivity in the shell
+
+
+## other stuff
+- Icons: numix-circle
