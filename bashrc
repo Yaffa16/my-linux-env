@@ -20,7 +20,6 @@ LD_LIBRARY_PATH+=/usr/local/lib/
 export LD_LIBRARY_PATH
 
 # extend the exectubale path
-export PATH="/home/paul/Apps/anaconda3/bin:$PATH"  # commented out by conda initialize
 export PATH="~/bin:$PATH"
 
 
