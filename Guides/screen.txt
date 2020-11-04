@@ -1,0 +1,12 @@
+### Create a Screen
+screen -S test
+
+### Deattach
+Ctrl + a + d
+
+### Reattach
+screen -r [id or name]
+
+### Kill
+screen -X -S [id or name] kill
+

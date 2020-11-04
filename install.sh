@@ -29,4 +29,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
 # copy configs
 cp -r Templates ~
 cp -r .ssh ~
-cp home/.* ~
+cp home/.inputrc ~
+cp home/.vimrc ~
+echo "please insert bashrc contents manually"

@@ -10,8 +10,9 @@ Then follow the instrucitons in TF2
 
 ##### Structure
 - Templates/: contains files which can be instanciated when creating a new file
-- home/: various config files for programms and bash
+- home/: various config files for programms and the shell
 - TF2/: contains instructions for a full TensorFlow2 and NVIDIA GPU installation
+- Guides/: contains useful instructions for some programs
 - .ssh/: config for SSH
 
 
