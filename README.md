@@ -1,9 +1,18 @@
 # Collection of useful stuff for the Linux Environment
 
-- Templates/ is folder that contains files which can be instanciated when creating a new file
-- bashrc contains lines which alter the bash environment
-- vimrc contains lines for a more normal use of vim
-- inputrc contains a line that inhibits case sensetivity in the shell
+##### Usage
+Install common programms and copy configs
+```
+chmod +x install.sh
+./install.sh
+```
+Then follow the instrucitons in TF2
+
+##### Structure
+- Templates/: contains files which can be instanciated when creating a new file
+- home/: various config files for programms and bash
+- TF2/: contains instructions for a full TensorFlow2 and NVIDIA GPU installation
+- .ssh/: config for SSH
 
 
 ## other stuff
