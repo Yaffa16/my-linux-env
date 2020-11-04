@@ -1,5 +1,5 @@
 # developing
-sudo apt install -y vim ssh git curl htop screen
+sudo apt install -y vim ssh git curl htop screen net-tools build-essential
 
 wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
 chmod +x Anaconda3-2020.07-Linux-x86_64.sh
