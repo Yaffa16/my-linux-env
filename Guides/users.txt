@@ -1,0 +1,12 @@
+### Users
+$ useradd -g GROUPID
+$ userdel  
+
+# which group is the user ?
+$ cat /etc/group
+$ id "user" 
+
+# what new users get in there home
+$ /etc/skel/
+
+ 
