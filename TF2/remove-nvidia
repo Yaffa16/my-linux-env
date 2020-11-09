@@ -1,0 +1,7 @@
+# list nvidia packages
+dpkg -l | grep -i nvidia
+
+# remove all nvidia packages
+sudo apt remove --purge '^nvidia-.*'
+sudo apt autoremove
+
