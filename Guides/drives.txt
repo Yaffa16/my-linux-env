@@ -1,0 +1,25 @@
+# Mounting a drive
+
+### check Drives
+lsblk
+lsblk -o NAME,FSTYPE,UUID
+
+### make a mount point
+mkdir Drives/Data2TB
+
+
+## normal mount example 
+sudo mount /dev/sda1 ~/Drives/Data2TB
+
+
+## auto mount
+sudo cp /etc/fstab /etc/fstab.old
+sudo vim /etc/fstab
+
+### example entry
+UUID=89e83246-f62f-4c0a-a5a4-1f1bc3fc1445   /home/foo/Drives/Data2TB   ext4    errors=remount-ro     0  2
+
+### edit field 4 for specifc behaviour/access rights
+man mount 
+
+
